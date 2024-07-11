@@ -1,0 +1,63 @@
+html,body{
+    height: 100%;
+    margin: auto;
+}
+.bg{
+    background-image: url(bg-img.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.brand{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 20px;
+    margin-right: 350px;
+    margin-left: 300px;
+}
+.menu{
+    color: White;
+    background-color: rgb(70, 70, 70);
+    height: 60px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    align-content: center;
+}
+.tabs{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: large;
+    text-align: center;
+    align-content: center;
+    margin: 15px;
+}
+.content{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: x-large;
+    color: white;
+    display: flexbox;
+    text-align: center;
+    margin-top: 200px;
+}
+.btn1{
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    border: solid 3px black;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+}
+.btn2{
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    margin: 15px;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+}
+
